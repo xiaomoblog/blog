@@ -46,6 +46,10 @@
     })();
 
     (function () {
-        $("#day_count").html(444);
+        var dateFrom = new Date(2016,9,12);
+        var dateTo = new Date();
+        var diff = dateTo.valueOf() - dateFrom.valueOf();
+        var diff_day = parseInt(diff / (1000 * 60 * 60 * 24));
+        $("#day_count").html(diff_day);
     })();
 </script>
