@@ -8,18 +8,17 @@ menu:
 
 # Nav Shortcut Icons
 nav_icons:
-    - ['/images/mail.svg', 'https://github.com/AngryPowman']
-    - ['/images/github.svg', 'https://github.com/AngryPowman']
+    - ['/images/mail.svg', 'mailto:xiaomo@xiaomo.info']
+    - ['/images/github.svg', 'https://github.com/xiaomoinfo']
     - ['/images/stackoverflow.svg', 'https://github.com/AngryPowman']
     - ['/images/rss.svg', '/atom.xml']
     - ['/images/zhihu.svg', 'https://www.zhihu.com/people/hupengbest']
-    - ['/images/twitter.svg', 'https://www.zhihu.com/people/hupengbest']
+    - ['/images/twitter.svg', 'https://twitter.com/hupengbest']
 
 
 # Friend Links
 friend_links:
     - ['烧酒博客', 'https://i.shojo.cc']
-    - ['github', 'https://github.com/syoubaku']
     - ['中国博客联盟', 'http://zgboke.com']
     - ['edik', 'http://www.edik.cn/']
     - [ 'sentsin', 'http://sentsin.com/']
