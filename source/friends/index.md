@@ -1,10 +1,3 @@
----
-title: 友情链接
-date: 2017-02-08 11:24:53
----
-<br><br><br><br><br><br><br>
-
-
 <style type="text/css">   
 /* CSS Document */   
   
