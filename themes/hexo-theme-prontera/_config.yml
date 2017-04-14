@@ -5,7 +5,7 @@ favicon: /favicon.ico
 menu:
     首页: /
     归档: /archives
-    About: /about
+    关于我: /about
 
 # Nav Shortcut Icons
 nav_icons:
