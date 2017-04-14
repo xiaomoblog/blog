@@ -8,22 +8,32 @@ menu:
 
 # Nav Shortcut Icons
 nav_icons:
+    - ['/images/mail.svg', 'https://github.com/AngryPowman']
     - ['/images/github.svg', 'https://github.com/AngryPowman']
+    - ['/images/stackoverflow.svg', 'https://github.com/AngryPowman']
     - ['/images/rss.svg', '/atom.xml']
     - ['/images/zhihu.svg', 'https://www.zhihu.com/people/hupengbest']
+    - ['/images/twitter.svg', 'https://www.zhihu.com/people/hupengbest']
 
 
 # Friend Links
 friend_links:
-    - ['AngryPowman', 'This is a link', 'http://powman.org']
-    - ['Demo Links', 'You can change this in your theme config', 'http://powman.org']
-
+    - ['烧酒博客', 'https://i.shojo.cc']
+    - ['github', 'https://github.com/syoubaku']
+    - ['中国博客联盟', 'http://zgboke.com']
+    - ['edik', 'http://www.edik.cn/']
+    - [ 'sentsin', 'http://sentsin.com/']
+    - [ 'tangqq', 'http://www.tangqq.cn/']
+    - [ 'lengziyu', 'http://lengziyu.com/']
+    - [ 'tool', 'http://tool.lu']
+    - [ 'zhangli', 'http://fortl.net/']
+    - ['monsterlin', 'http://monsterLin.com/']
 
 # About
 about_info:
-    name: "AngryPowman"
-    bio: "十年饮冰·难凉热血"
-    avatar: "/images/avatar.png"
+    name: "小莫"
+    bio: "日本語を習っています....."
+    avatar: "//image.xiaomo.info/logo/avatar.png"
 
 # Comment
 # e.g disqus: seansun
@@ -31,7 +41,7 @@ disqus: xiaomoblog
 duoshuo: 
 
 # Analytics
-google_analytics: angrypowman
+google_analytics: xiaomoblog
 tencent_analytics: 
  
 # Copyright Infomation
