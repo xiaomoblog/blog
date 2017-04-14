@@ -5,7 +5,7 @@ favicon: /favicon.ico
 menu:
     首页: /
     归档: /archives
-    好友: /friends
+#    好友: /friends
     关于我: /about
 
 # Nav Shortcut Icons
