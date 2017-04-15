@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小莫的博客
+title: 小莫的博客-fighting(专注于编程技术的分享)
 subtitle: 日本語を習っています.....
 keywords: 小莫的博客,
           java,
@@ -93,11 +93,11 @@ exclude_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-prontera
+theme: hexo-theme-yelee
 
 archive_generator:
     per_page: 0
-    yearly: false
+    yearly: true
     monthly: true
     daily: false
 

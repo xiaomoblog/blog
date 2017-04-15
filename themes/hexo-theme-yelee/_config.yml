@@ -9,8 +9,8 @@ Yelee: "3.0"
 menu:
 #  主页: /
   所有文章: /archives/
-  友情链接: /friends/
-  关于我&留言板: /about/
+  友链&留言板: /friends/
+  关于我: /about.html
 #  小工具: /tools/
   #随笔: /tags/随笔
 #  标签云: /tags/
@@ -127,8 +127,8 @@ color_scheme:
 
 highlight_style:
   on: true
-  inline_code: 1  # Value: 0 - 9 可选
-  code_block: 1  # Value: 0 - 4 
+  inline_code: 2  # Value: 0 - 9 可选
+  code_block: 1 # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
