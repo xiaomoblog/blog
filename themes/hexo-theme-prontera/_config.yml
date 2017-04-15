@@ -20,15 +20,17 @@ nav_icons:
 
 # Friend Links
 friend_links:
-    - ['烧酒博客', 'https://i.shojo.cc']
-    - ['中国博客联盟', 'http://zgboke.com']
-    - ['edik', 'http://www.edik.cn/']
-    - [ 'sentsin', 'http://sentsin.com/']
-    - [ 'tangqq', 'http://www.tangqq.cn/']
-    - [ 'lengziyu', 'http://lengziyu.com/']
-    - [ 'tool', 'http://tool.lu']
-    - [ 'zhangli', 'http://fortl.net/']
-    - ['monsterlin', 'http://monsterLin.com/']
+  - ['小莫]['https://xiaomo.info']
+  - ['烧酒博客']['https://i.shojo.cc/']
+  - ['小野狗']['http://fortl.net']
+  - ['monstlin']['monsterlin.com']
+  - ['香菇会长']['https://siitake.cn/']
+  - ['Edik博客']['https://www.edik.cn/']
+  - ['贤心博客']['http://sentsin.com/']
+  - ['冷子欲']['http://lengziyu.com/']
+  - ['Leonn']['https://liyuans.com/']
+  - ['netcan']['http://www.netcan666.com/']
+  - ['kotori']['https://kotori.love/']
 
 # About
 about_info:
