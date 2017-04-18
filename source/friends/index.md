@@ -13,3 +13,33 @@
 - [Leonn](https://liyuans.com/)
 - [netcan](http://www.netcan666.com/)
 - [kotori](https://kotori.love/)
+
+
+<style>
+ul{
+    padding: 0; 
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+li a{
+    color: #2E9FFF;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    text-decoration: underline; 
+}
+.article-entry ul>li:before{width:0;height:0;border:0 }
+li:before
+    {
+    content:"";
+    width: 0;
+    border:0;
+    height: 0;
+    background:rgba(0,0,0,0)
+    }
+</style>
