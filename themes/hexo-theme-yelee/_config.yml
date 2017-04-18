@@ -84,7 +84,7 @@ preload_comment: true
 ## false: load comment's section until u click/hover on the bar/icon
 
 disqus: 
-  on: true
+#  on: true
   shortname: xiaomoblog
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
