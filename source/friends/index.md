@@ -16,21 +16,21 @@
 
 
 <style>
-ul{
+.article-entry ul{
     padding: 0; 
 }
-li{
+.article-entry ul>li{
     list-style: none;
     display: inline-block;
     margin: 0 3px;
 }
-li a{
+.article-entry ul>li a{
     color: #2E9FFF;
     text-decoration: none;
     
 }
 
-li a:hover{
+.article-entry ul>li a:hover{
     text-decoration: underline; 
 }
 .article-entry ul>li:before{width:0;height:0;border:0 }
