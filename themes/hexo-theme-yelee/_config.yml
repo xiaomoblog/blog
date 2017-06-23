@@ -7,7 +7,7 @@ Yelee: "3.0"
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  主页: https://xiaomo.info
+  主页: /
   所有文章: /archives/
   友链&留言板: /friends/
   关于我: /about.html
