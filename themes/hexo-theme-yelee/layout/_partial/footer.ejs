@@ -30,8 +30,14 @@
         </div>
         <% } %>
     </div>
+    <script src="js/activate-power-mode.js" ></script>
 </footer>
 <script>
+    // 添加输入效果
+    POWERMODE.colorful = true; // make power mode colorful
+    POWERMODE.shake = false; // turn off shake
+    document.body.addEventListener('input', POWERMODE);
+
     (function () {
         var bp = document.createElement('script');
         var curProtocol = window.location.protocol.split(':')[0];
