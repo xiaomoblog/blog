@@ -5,7 +5,7 @@
 - [小莫](https://xiaomo.info)
 - [烧酒博客](https://i.shojo.cc/)
 - [小野狗](http://fortl.net) 
-- [monstlin](//monsterlin.com)
+- [monstlin](http://monsterlin.com)
 - [香菇会长](https://siitake.cn/)
 - [Edik博客](https://www.edik.cn/)
 - [贤心博客](http://sentsin.com/)
