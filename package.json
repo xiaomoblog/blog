@@ -2,7 +2,7 @@
   "name": "xiaomoblog",
   "version": "0.0.98",
   "hexo": {
-    "version": "3.2.2"
+    "version": "3.3.9"
   },
   "scripts": {
     "build": "hexo clean && hexo generate && http-server",
