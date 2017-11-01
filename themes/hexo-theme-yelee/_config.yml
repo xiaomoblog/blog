@@ -91,13 +91,14 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 changyan:
-  on: true
+  on: false
   shortname: prod_a71fc51bc9b832401d9918d524426c51
 
 gitalk:
   on: true
   owner: xiaomoinfo
-  repo: blog.xiaomo.info
+  repo: https://blog.xiaomo.info
+  admin: xiaomoinfo
   client_id: 9772f6a6fdb199a60ba1
   client_secret: 9a606af21688d2d4ff2efa2467ee82e76e1e9865
 

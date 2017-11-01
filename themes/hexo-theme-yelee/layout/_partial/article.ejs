@@ -9,47 +9,32 @@
         margin: -1px 20px 5px -1px;
         border-top-left-radius: 3px;
         -webkit-border-radius-topleft: 3%;
-        -webkit-transition:all 0.5s;
-        -moz-transition:all 0.5s;
-        -o-transition:all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
     }
+
     /*.article img:hover{*/
-        /*transform: scale(1, 1.05);*/
-        /*-webkit-transition:all 0.5s;*/
-        /*-moz-transition:all 0.5s;*/
-        /*-o-transition:all 0.5s;*/
+    /*transform: scale(1, 1.05);*/
+    /*-webkit-transition:all 0.5s;*/
+    /*-moz-transition:all 0.5s;*/
+    /*-o-transition:all 0.5s;*/
     /*}*/
-    .color3{
-        display: inline-block;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 0.75rem;
-        height: 1.125rem;
-        line-height: 1.125rem;
-        float: left;
-        padding: 0 5px 0 1px;
-        position: relative;
-        border-radius: 0 5px 5px 0;
-        margin: 5px 9px 5px 8px;
-    }
-    #busuanzi_container_page_pv:hover{
-        background: #DD8D8D;
-    }
 </style>
 
 
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
-    <%if(post.noDate != "true"){%>
+    <% if(post.noDate != "true"){ %>
     <div class="article-meta">
         <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     </div>
-    <%}%>
+    <% } %>
     <div class="article-inner">
         <% if (theme.fancybox){ %>
-        <input type="hidden" class="isFancy" />
+        <input type="hidden" class="isFancy"/>
         <% } %>
         <div class="fengmian" id="fengmian">
-            <img class="fengmian-image" id="<%= post.slug %>" src="https://image.xiaomo.info/cover/bg-5.jpg" alt="封面" onload="loadImage(this.id)" />
+            <img class="fengmian-image" id="<%= post.slug %>" src="https://image.xiaomo.info/cover/bg-5.jpg" alt="封面" onload="loadImage(this.id)"/>
         </div>
         <% if (post.link || post.title){ %>
         <header class="article-header">
@@ -86,7 +71,7 @@
         </div>
         <% if (index){ %>
         <div class="article-info article-info-index">
-            <%if(post.top){%>
+            <% if(post.top){ %>
             <div class="article-pop-out tagcloud">
                 <a class="">置顶</a>
             </div>
@@ -107,26 +92,26 @@
     <% } %>
     <script>
 
-        function getPgjs(){
+        function getPgjs() {
             var agent = navigator.userAgent.toLowerCase();
             var res = agent.match(/android/);
-            if(res == "android")
+            if (res == "android")
                 return res;
             res = agent.match(/iphone/);
-            if(res == "iphone")
+            if (res == "iphone")
                 return "ios";
             res = agent.match(/ipad/);
-            if(res == "ipad")
+            if (res == "ipad")
                 return "ios";
             res = agent.match(/windows/);
-            if(res == "windows")
+            if (res == "windows")
                 return "wp";
             return "pc";
         }
 
-        function loadImage (id) {
+        function loadImage(id) {
             var page = window.location.pathname
-            if (page.indexOf("about") !== -1){
+            if (page.indexOf("about") !== -1) {
                 return;
             }
 //            var result = getPgjs();
@@ -137,16 +122,16 @@
 //            }
             var backgroundnum = <%= theme.cover_image %>;
             var randomIndex = Math.ceil(Math.random() * backgroundnum);
-            var result = randomIndex+"?version="+(new Date()/1000);
+            var result = randomIndex + "?version=" + (new Date() / 1000);
             var backgroundimg = "https://image.xiaomo.info/cover/bg-number.jpg".replace(/number/gi, randomIndex);
-            var key = "#"+id;
-            $(key).attr("src",backgroundimg);
+            var key = "#" + id;
+            $(key).attr("src", backgroundimg);
             $(".fengmian").show();
         }
 
         (function () {
             var page = window.location.pathname
-            if (page.indexOf("about") !== -1){
+            if (page.indexOf("about") !== -1) {
                 console.log(page)
                 $(".fenagmian").hide();
 //                $("#comments").remove();
@@ -161,13 +146,13 @@
 
 
 <!--<script>-->
-    <!--(function(){-->
-        <!--var path = window.location.pathname;-->
-        <!--if (path ==="/" || path=== undefined || path === null || path.indexOf("page") !== -1){-->
-            <!--$("#cyReward").remove();-->
-            <!--$("#cyEmoji").remove();-->
-        <!--}-->
-    <!--})()-->
+<!--(function(){-->
+<!--var path = window.location.pathname;-->
+<!--if (path ==="/" || path=== undefined || path === null || path.indexOf("page") !== -1){-->
+<!--$("#cyReward").remove();-->
+<!--$("#cyEmoji").remove();-->
+<!--}-->
+<!--})()-->
 
 
 <!--</script>-->
@@ -179,33 +164,27 @@
 <% if (!index && ((post.toc != false && !is_page() && theme.toc) || post.toc)){ %>
 <%- partial('_partial/toc') %>
 <% } %>
-
 <% if (!index && theme.share.on && (post.share != false || post.share)){ %>
 <%- partial('post/share') %>
 <% } %>
-
 <% if (!index && post.comments){ %>
 <% if (theme.duoshuo.on) { %>
 <%- partial('comments/duoshuo', {
     key: post.path,
     title: post.title,
-    url: config.url+url_for(post.path),
+    url: config.url + url_for(post.path),
 }) %>
 <% } else if (theme.changyan.on) { %>
 <%- partial('comments/changyan') %>
-<% } else if (theme.disqus.on) { %>
-<%- partial('comments/disqus', {
-    shortname: theme.disqus.shortname
-}) %>
+<% } else if (theme.gitalk.on) { %>
+<%- partial('comments/gitalk') %>
 <% } else if (config.disqus_shortname) { %>
 <%- partial('comments/disqus', {
     shortname: config.disqus_shortname
 }) %>
 <% } %>
 <% } %>
-
 <%- partial('_partial/post-nav-button') %>
-
 <% if (!index) { %>
 <script>
     <% if (post.fancybox === false){ %>
