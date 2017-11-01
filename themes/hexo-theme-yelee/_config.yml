@@ -99,8 +99,8 @@ gitalk:
   owner: xiaomoinfo
   repo: https://blog.xiaomo.info
   admin: xiaomoinfo
-  client_id: 9772f6a6fdb199a60ba1
-  client_secret: 9a606af21688d2d4ff2efa2467ee82e76e1e9865
+  clientID: 9772f6a6fdb199a60ba1
+  clientSecret: 9a606af21688d2d4ff2efa2467ee82e76e1e9865
 
 duoshuo: 
   on: false
