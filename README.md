@@ -6,8 +6,7 @@
 - 小莫的unity珍藏文档(出自unity官方): https://unity.xiaomo.info
 - 小莫的python3珍藏文档(网络资源): http://python3.xiaomo.info
 - 小莫的golang文档(网络资源): https://go.xiaomo.info
-- 小莫的网站状态监控: https://status.xiaomo.info
-- 小莫的静态资源(upyun): https://image.xiaomo.info/index.html
+- 小莫的静态资源(upyun): https://image.xiaomo.info
 - 小莫的google: http://google.xiaomo.info
 - 小莫的facebook: http://facebook.xiaomo.info
 
