@@ -10,3 +10,4 @@
 - 小莫的google: http://google.xiaomo.info
 - 小莫的facebook: http://facebook.xiaomo.info
 
+![](https://image.xiamo.info/blog/status.png)
