@@ -10,4 +10,6 @@
 - 小莫的google: http://google.xiaomo.info
 - 小莫的facebook: http://facebook.xiaomo.info
 
-![png](https://image.xiaomo.info/blog/status.png)
+[![png](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
+
+[![png](https://image.xiaomo.info/blog/github.png)](https://github-profile-summary.com/user/xiaomoinfo)
