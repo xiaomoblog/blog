@@ -44,7 +44,7 @@ baidusitemap:
   path: baidusitemap.xml
 
 douban:
-    user: xiaomoinfo
+    user: xiaomo1992
 
 # Directory
 source_dir: source
