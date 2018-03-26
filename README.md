@@ -1,5 +1,5 @@
 
-# 小莫的233333333
+# 小莫的网站集合
 - 小莫的家：https://xiaomo.info
 - 小莫的博客：https://blog.xiaomo.info
 - 小莫的在线pc: http://online.xiaomo.info
