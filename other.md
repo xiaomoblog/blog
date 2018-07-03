@@ -1,1 +1,1 @@
-https://coderschool.cn/1896.html 反代google教程
+https://coderschool.cn/1896.html 反向代理google教程
