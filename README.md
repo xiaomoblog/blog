@@ -14,4 +14,4 @@
 [![png](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
 
 ## graph
-[![png](https://image.xiaomo.info/blog/github.png)](https://github-profile-summary.com/user/xiaomoinfo)
+[![png](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/xiaomoinfo)
