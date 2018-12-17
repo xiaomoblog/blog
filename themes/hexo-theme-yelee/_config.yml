@@ -227,7 +227,7 @@ ie_updater:
 # >>> Vendors | 第三方工具 & 服务 <<<
 
 # Local Site Search | 本地站内搜索
-## Insatall below plugin to take effect | 使用搜索需先安装对应插件
+## Install below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
   on: true
@@ -300,3 +300,5 @@ CDN:
   mathjax: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
   scrollreveal: //cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js
   animate: //cdn.bootcss.com/animate.css/3.5.0/animate.min.css
+
+psot_asset_folder: true

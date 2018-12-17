@@ -46,6 +46,8 @@ baidusitemap:
 douban:
     user: xiaomo1992
 
+psot_asset_folder: true
+
 # Directory
 source_dir: source
 public_dir: public
