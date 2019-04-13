@@ -2,12 +2,7 @@ language: node_js
 node_js:
   - "8"
 script: 
-  - npm run build
-install:
-  - npm install
-cache:
-  directories:
-    - node_modules
+  - echo 1
 after_script:
   - git init
   - git config user.name "xiaomo"
