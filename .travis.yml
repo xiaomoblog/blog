@@ -12,6 +12,8 @@ cache:
 after_script:
   - cp -f CNAME ./public/CNAME
   - cd ./public
+  - touch README.MD
+  - echo `date +"%Y-%m-%d %H-%m"` >> README.MD
   - git init
   - git config user.name "xiaomo"
   - git config user.email "xiaomo@xiaomo.info"
