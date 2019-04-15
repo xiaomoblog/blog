@@ -5,7 +5,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "build": "hexo clean && hexo generate && http-server",
+    "build": "hexo clean && hexo generate",
     "dev": "hexo generate && http-server",
     "pull": "git pull && hexo g",
     "test": "http-server --port=PORT",
