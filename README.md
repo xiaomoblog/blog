@@ -1,4 +1,4 @@
-当前build状态： ![https://travis-ci.org/xiaomoinfo/blog.svg?branch=master](https://travis-ci.org/xiaomoinfo/blog)
+当前build状态： ![https://travis-ci.org/xiaomoinfo/blog](![](https://travis-ci.org/xiaomoinfo/blog.svg?branch=master))
 
 
 
