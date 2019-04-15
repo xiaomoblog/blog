@@ -4,6 +4,7 @@ node_js:
 script: 
   - echo 1
 after_script:
+  - cp -f CNAME ./public/CNAME
   - git init
   - git config user.name "xiaomo"
   - git config user.email "xiaomo@xiaomo.info"
