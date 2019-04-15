@@ -10,6 +10,7 @@ cache:
   directories:
     - node_modules
 after_script:
+  - cd ./public
   - cp -f CNAME ./public/CNAME
   - git init
   - git config user.name "xiaomo"
