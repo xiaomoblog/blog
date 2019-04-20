@@ -1,3 +1,6 @@
+当前build状态： ![https://travis-ci.org/xiaomoinfo/blog](https://travis-ci.org/xiaomoinfo/blog.svg?branch=master)
+
+
 
 # 小莫的网站集合
 - 小莫的家：https://xiaomo.info
