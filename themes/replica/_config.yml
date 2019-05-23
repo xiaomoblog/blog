@@ -1,13 +1,15 @@
 # left-side user profile
-avatar: https://alice.witdor.com/assets/img/alicesmall.jpg
-location: nanjing
-email: 245869567@qq.com
+avatar: //image.xiaomo.info/logo/avatar.png
+location: localhost
+email: xiaomo@xiaomo.info
 social:
-  zhihu: '//www.zhihu.com/people/aliceprincess-55/activities'
-  weibo: '//weibo.com/u/2749673491/home?wvr=5&lf=reg'
-  github: '//github.com/AlicePrincess'
-  linkedin: '//www.linkedin.com/in/%E6%A2%A6%E7%AB%B9-%E5%90%B4-b9a72b118/'
-  facebook: '//www.facebook.com/ce.ali.96'
+  github: '//github.com/hoko'
+  linkedin: '//www.linkedin.com/in/xiaomoinfo/'
+  facebook: '//www.facebook.com/chinaHupeng'
+  Email: "mailto:xiaomo@xiaomo.info"
+  QQ: "http://wpa.qq.com/msgrd?v=3&uin=83387856&site=qq&menu=yes"
+  Twitter: "https://twitter.com/xiaomoinfo"
+  StackOverflow: "http://stackoverflow.com/users/5804125/hpbest"
 
 # navbar menu
 menu:
