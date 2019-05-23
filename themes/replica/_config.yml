@@ -1,0 +1,28 @@
+# left-side user profile
+avatar: https://alice.witdor.com/assets/img/alicesmall.jpg
+location: nanjing
+email: 245869567@qq.com
+social:
+  zhihu: '//www.zhihu.com/people/aliceprincess-55/activities'
+  weibo: '//weibo.com/u/2749673491/home?wvr=5&lf=reg'
+  github: '//github.com/AlicePrincess'
+  linkedin: '//www.linkedin.com/in/%E6%A2%A6%E7%AB%B9-%E5%90%B4-b9a72b118/'
+  facebook: '//www.facebook.com/ce.ali.96'
+
+# navbar menu
+menu:
+ archives: true
+ tags: true
+ categories: true
+
+rss_dir: atom.xml
+
+# widget
+ga: # google analytics tracking code UA-XXXXXXX-X
+baidutongji: # baidutongji tracking code
+duoshuo: # duoshuo username
+gsc: # google custom search code
+
+# flagcounter
+flagcounter_href: # https://info.flagcounter.com/xxxx
+flagcounter_img_src: # https://s01.flagcounter.com/xxxx
