@@ -19,4 +19,4 @@ after_script:
   - git config user.email "xiaomo@xiaomo.info"
   - git add .
   - git commit -m "automated build"
-  - git push --quiet --force https://${REPO_TOKEN}@github.com/xiaomoinfo/blog.git master:gh-pages
+  - git push --quiet --force https://${REPO_TOKEN}@github.com/houko/blog.git master:gh-pages
