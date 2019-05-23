@@ -4,7 +4,7 @@
 
 # Site
 title: 小莫的博客-fighting(专注于编程技术的分享)
-subtitle: 日本語を習っています.....
+subtitle: 行百里者半九十
 keywords: 小莫的博客,
           java,
           日语,
@@ -26,7 +26,7 @@ keywords: 小莫的博客,
           github,
           linux,
           主程
-description: 专注于技术研究的博客，具有开源精神;乐于将自己折腾的项目放在github上和大家共同学习，共同进步;近期在学习日语，希望尽快考过N2出国长长见识。
+description: 专注于技术研究的博客，具有开源精神;乐于将自己折腾的项目放在github上和大家共同学习，共同进步。
 author: 小莫
 language: zh-CN
 timezone:
