@@ -2,14 +2,16 @@
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <hr/>
 <br/>
-<a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title),'_blank','toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=600, height=450,top=100,left=350');void(0)"
-    style="background-color: lightskyblue;border-radius: 45px;box-shadow: #767676;font-size: 14px;font-family: '微软雅黑',serif;color: whitesmoke;padding: 10px 15px"
->
-twitter分享
-</a>
+<div style="display:block;text-align: center">
+    <a href="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(document.location.href)+' '+encodeURIComponent(document.title),'_blank','toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=600, height=450,top=100,left=350');void(0)"
+       style="background-color: lightskyblue;border-radius: 45px;box-shadow: #767676;font-size: 14px;font-family: '微软雅黑',serif;color: whitesmoke;padding: 10px 15px;"
+    >
+        twitter分享
+    </a>
+</div>
 <br/>
 <br/>
-<div id="gitalk-container"></div>
+<div id="gitalk-container" style="margin-left: 3%"></div>
 <script type="text/javascript">
     var gitalk = new Gitalk({
         clientID: '<%= theme.gitalk.clientID %>',
