@@ -1,4 +1,4 @@
-当前build状态： ![https://travis-ci.org/xiaomoinfo/blog](https://travis-ci.org/xiaomoinfo/blog.svg?branch=master)
+当前build状态： ![https://travis-ci.org/houko/blog](https://travis-ci.org/houko/blog.svg?branch=master)
 
 
 
@@ -10,8 +10,8 @@
 - 小莫的python3珍藏文档(网络资源): http://python3.xiaomo.info
 - 小莫的静态资源(upyun): https://image.xiaomo.info
 
-## status
+## status(点击图片查看最新数据)
 [![png](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
 
-## graph
+## graph(点击图片查看最新数据)
 [![png](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/xiaomoinfo)
