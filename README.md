@@ -1,11 +1,11 @@
-[![png](https://xiaomo.info/blog/blog-banner.jpg)](https://blog.xiaomo.info)
+[![png](https://xiaomo.info/img/blog/blog-banner.jpg)](https://blog.xiaomo.info)
+
 ![https://travis-ci.org/houko/blog](https://travis-ci.org/houko/blog.svg?branch=master)
-[![Gitter](https://badges.gitter.im/xiaomo-blog/community.svg?colorA=grey)](https://gitter.im/xiaomo-blog/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-![blog](https://img.shields.io/badge/hexo-3.8.0-green.svg?colorA=grey)
+[![Slack](https://img.shields.io/badge/join-Slack-green.svg?colorA=black&logo=Slack)](https://xiaomoinfo.slack.com/messages/CJNJT3G8G/details/)
+![hexo](https://img.shields.io/badge/hexo-3.8.0-green.svg?colorA=grey)
 ![blog](https://img.shields.io/badge/@xiaomo-blog-orange.svg?colorA=grey)
 ![MIT](https://img.shields.io/badge/license-MIT-green.svg?colorA=grey)
-![MIT](https://img.shields.io/badge/twitter-@xiaomoinfo-black.svg?colorA=blue)
-![MIT](https://img.shields.io/badge/mail-@xiaomo-grey.svg?colorA=pink)
+![twitter](https://img.shields.io/badge/twitter-@xiaomoinfo-black.svg?colorA=blue&logo=Slack)
 
 
 # 小莫的网站集合
