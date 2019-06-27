@@ -1,4 +1,4 @@
-[![png](https://xiaomo.info/img/blog/blog-banner.jpg)](https://blog.xiaomo.info)
+[![png](https://blog.xiaomo.info/img/blog/blog-banner.jpg)](https://blog.xiaomo.info)
 
 ![https://travis-ci.org/houko/blog](https://travis-ci.org/houko/blog.svg?branch=master)
 [![Slack](https://img.shields.io/badge/join-Slack-green.svg?colorA=black&logo=Slack)](https://xiaomoinfo.slack.com/messages/CJNJT3G8G/details/)
