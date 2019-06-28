@@ -10,11 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
-
-- script: |
-    echo 'hello world'
-  displayName: 'push azure to github'
+- bash: |
+   Git pull https://github.com/houko/blog.git master
+   Git push https://$(REPO_TOKEN)@github.com/houko/blog.git head:master
+  displayName: 'Build extensions'
+  env:
+    REPO_TOKEN: 124
