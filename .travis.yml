@@ -12,7 +12,8 @@ cache:
 after_script:
   - git remote add upstream https://houko@dev.azure.com/houko/blog/_git/blog
   - git fetch upstream
-  - git merge upstream
+  - git checkout master
+  - git merge upstream/master
   - git push --quiet --force https://${REPO_TOKEN}@github.com/houko/blog.git
   - cp -f CNAME ./public/CNAME
   - cd ./public
