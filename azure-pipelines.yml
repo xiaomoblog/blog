@@ -12,5 +12,5 @@ pool:
 steps:
 - bash: |
    git pull https://github.com/houko/blog.git master
-   git push --quiet --force https://github.com/houko/blog.git master
+   git push --quiet --force https://github.com/houko/blog.git head:master
   displayName: 'Build extensions'
