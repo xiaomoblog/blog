@@ -11,8 +11,6 @@ pool:
 
 steps:
 - bash: |
-   Git pull https://github.com/houko/blog.git master
-   Git push https://$(REPO_TOKEN)@github.com/houko/blog.git head:master
+   git pull https://github.com/houko/blog.git master
+   git push https://github.com/houko/blog.git master
   displayName: 'Build extensions'
-  env:
-    REPO_TOKEN: 124
