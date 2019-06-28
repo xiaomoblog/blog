@@ -16,9 +16,5 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    git remote add upstream https://github.com/houko/blog.git
-    git fetch upstream
-    git merge upstream/master
-    git commit -m "automated build blog"
-    git push --quiet --force https://${REPO_TOKEN}@github.com/houko/blog.git master
+    echo 'hello world'
   displayName: 'push azure to github'
