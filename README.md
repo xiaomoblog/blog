@@ -1,6 +1,6 @@
 [![png](https://blog.xiaomo.info/img/blog/blog-banner.jpg)](https://blog.xiaomo.info)
 
-[![Board Status](https://dev.azure.com/houko/6a4c51b9-29d6-4eac-a9f6-f7df63315cc3/4ac3549f-22e0-4317-ae9f-40b750c837bf/_apis/work/boardbadge/d78325ca-7b73-4930-8569-6e2cb225f647?columnOptions=2)](https://dev.azure.com/houko/6a4c51b9-29d6-4eac-a9f6-f7df63315cc3/_boards/board/t/4ac3549f-22e0-4317-ae9f-40b750c837bf/Microsoft.RequirementCategory)
+[![Board Status](https://dev.azure.com/houko/6a4c51b9-29d6-4eac-a9f6-f7df63315cc3/4ac3549f-22e0-4317-ae9f-40b750c837bf/_apis/work/boardbadge/d78325ca-7b73-4930-8569-6e2cb225f647?columnOptions=1)](https://dev.azure.com/houko/6a4c51b9-29d6-4eac-a9f6-f7df63315cc3/_boards/board/t/4ac3549f-22e0-4317-ae9f-40b750c837bf/Microsoft.RequirementCategory)
 ![https://travis-ci.org/houko/blog](https://travis-ci.org/houko/blog.svg?branch=master)
 [![Slack](https://img.shields.io/badge/join-Slack-green.svg?colorA=black&logo=Slack)](https://xiaomoinfo.slack.com/messages/CJNJT3G8G/details/)
 ![hexo](https://img.shields.io/badge/hexo-3.8.0-green.svg?colorA=grey)
