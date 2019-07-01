@@ -11,6 +11,10 @@ pool:
 
 steps:
 - bash: |
-   git pull https://github.com/houko/blog.git master
-   git push --quiet --force https://github.com/houko/blog.git head:master
+
+    git remote add upstream git@github.com:houko/blog.git
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+    git push --quiet --force https://houko@dev.azure.com/houko/blog/_git/blog
   displayName: 'Build extensions'
