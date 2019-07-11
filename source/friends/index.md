@@ -12,8 +12,10 @@
 - [冷子欲](http://lengziyu.com/)
 - [Leonn](https://liyuans.com/)
 - [netcan](http://www.netcan666.com/)
+- [alice](https://aliceprincess.info/)
 - [kotori](https://kotori.love/)
 - [DrumCoder](http://hotsun168.com/)
+- [kumori](https://kumori.cn/)
 
 
 <style>
