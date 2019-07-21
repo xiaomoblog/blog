@@ -21,4 +21,4 @@
 [![png](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
 
 ## graph(点击图片查看最新数据)
-[![png](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/hoko)
+[![png](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/houko)
