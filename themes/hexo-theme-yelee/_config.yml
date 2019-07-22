@@ -130,12 +130,12 @@ base_font_size: 16  #px, 16 - 24
 
 ## General Color Scheme | 主题配色方案 
 ## 可用值 Value: yilia
-color_scheme: 
+color_scheme: yilia
 
 highlight_style:
   on: true
   inline_code: 2  # Value: 0 - 9 可选
-  code_block: 1 # Value: 0 - 4
+  code_block: 0 # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -287,18 +287,18 @@ progressBar:
   color: green
 
 CDN:
-  jquery: //cdn.bootcss.com/jquery/2.2.4/jquery.js
-  require: //cdn.bootcss.com/require.js/2.2.0/require.min.js
-  fontawesome: //cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css
-  fancybox_js: //cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
-  fancybox_css: //cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
-  animate_css: //cdn.bootcss.com/animate.css/3.5.1/animate.min.css
-  jquery_ui_js: //cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js
-  jquery_ui_css: //cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css
-  pace_js: //cdn.bootcss.com/pace/1.0.2/pace.min.js
-  clipboard: //cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js
-  mathjax: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
-  scrollreveal: //cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js
-  animate: //cdn.bootcss.com/animate.css/3.5.0/animate.min.css
+  jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js
+  require: https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js
+  fontawesome: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css
+  fancybox_js: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
+  fancybox_css: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
+  animate_css: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css
+  jquery_ui_js: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js
+  jquery_ui_css: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/themes/black-tie/jquery-ui.min.css
+  pace_js: https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js
+  clipboard: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js
+  mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js
+  scrollreveal: https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js
+  animate: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css
 
 psot_asset_folder: true
