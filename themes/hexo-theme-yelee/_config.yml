@@ -135,7 +135,7 @@ color_scheme:
 highlight_style:
   on: true
   inline_code: 2  # Value: 0 - 9 可选
-  code_block: 3 # Value: 0 - 4
+  code_block: 4 # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -258,7 +258,7 @@ baidu_site:
 google_site: 
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics: 
+google_analytics:  UA-80824007-1
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
