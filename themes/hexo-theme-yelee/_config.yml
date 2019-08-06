@@ -7,9 +7,13 @@ Yelee: "3.0"
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  小莫的主站: //xiaomo.info
+  小莫主站: //xiaomo.info
   所有文章: /archives/
-  友链&留言板: /friends/
+  友链&留言: /friends/
+  JDK源码系列: /tags/jdk源码系列/
+  Linux系列: /categories/linux/
+  工具系列: /categories/工具/
+  生活系列: /categories/生活/
   关于我: /about.html
 #  小工具: /tools/
   #随笔: /tags/随笔
