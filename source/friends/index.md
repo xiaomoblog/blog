@@ -17,6 +17,7 @@
 - [DrumCoder](http://hotsun168.com/)
 - [kumori](https://kumori.cn/)
 - [带翅膀的猫](https://www.chengpengper.cn/)
+- [贾鹏辉](http://www.devio.org/)
 
 
 <style>
