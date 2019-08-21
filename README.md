@@ -18,7 +18,7 @@
 - 小莫的静态资源(upyun): https://image.xiaomo.info
 
 ## status(点击图片查看最新数据)
-[![png](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
+[![status](https://image.xiaomo.info/blog/status.png)](https://status.xiaomo.info)
 
 ## graph(点击图片查看最新数据)
 [![png](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/houko)
