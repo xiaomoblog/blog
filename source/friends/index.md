@@ -18,6 +18,7 @@
 - [kumori](https://kumori.cn/)
 - [带翅膀的猫](https://www.chengpengper.cn/)
 - [贾鹏辉](http://www.devio.org/)
+- [汇智网](http://www.hubwiz.com/course/?type=free)
 
 
 <style>
