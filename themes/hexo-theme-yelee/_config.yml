@@ -7,17 +7,13 @@ Yelee: "3.0"
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  小莫的主站: //xiaomo.info
+  回到主站: //xiaomo.info
   所有文章: /archives/
   游戏开发系列: /categories/game
   JDK源码系列: /tags/jdk源码系列/
   Linux系列: /categories/linux/
   日本生活系列: /categories/japan/
   关于我: /about.html
-#  小工具: /tools/
-  #随笔: /tags/随笔
-#  标签云: /tags/
-  #图说: http://tushuo.baidu.com/wave/index#/gallery
 
 # Link to your avatar | 填写头像地址
 avatar: //image.xiaomo.info/logo/avatar.png
@@ -93,23 +89,16 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 changyan:
-  on: false
+  on: true
   shortname: prod_a71fc51bc9b832401d9918d524426c51
 
 gitalk:
-  on: true
+  on: false
   owner: houko
   repo: blog
   admin: ['houko']
   clientID: 9772f6a6fdb199a60ba1
   clientSecret: 9a606af21688d2d4ff2efa2467ee82e76e1e9865
-
-duoshuo: 
-  on: false
-#  domain: xiaomoblog
-  # 是否开启多说评论，http://duoshuo.com/create-site/
-  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
-  # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 youyan:
   #on: true
