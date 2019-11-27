@@ -8,7 +8,7 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="author" content="<%= config.author %>" />
 <meta name="baidu-site-verification" content="qp2dTXVqvj" />
-<meta name="twitter:image" content="//image.xiaomo.info/logo/avatar.png" /> <!-- twitter -->
+
 <% if (page.keywords){ %><meta name="keywords" content="<%= page.keywords %>, <%= config.keywords %>"><% } %>
 
 <% if (!page.keywords){ %><meta name="keywords" content="<%= config.keywords %>"><% } %>
@@ -22,7 +22,7 @@
 <% } %>
 
 <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-
+<meta name="twitter:image" content="//image.xiaomo.info/logo/avatar.png" /> <!-- twitter -->
 <link rel="apple-touch-icon" href= "<%- theme.root_url %>/apple-touch-icon.png">
 
 <% if (theme.rss){ %>
