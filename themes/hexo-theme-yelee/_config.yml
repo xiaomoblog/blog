@@ -93,7 +93,7 @@ changyan:
   shortname: prod_a71fc51bc9b832401d9918d524426c51
 
 gitalk:
-  on: true
+  on: false
   owner: houko
   repo: blog
   admin: ['houko']
