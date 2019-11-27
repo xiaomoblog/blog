@@ -8,14 +8,15 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="author" content="<%= config.author %>" />
 <meta name="baidu-site-verification" content="qp2dTXVqvj" />
+<meta name="twitter:image" content="//image.xiaomo.info/logo/avatar.png" /> <!-- twitter -->
 <% if (page.keywords){ %><meta name="keywords" content="<%= page.keywords %>, <%= config.keywords %>"><% } %>
 
 <% if (!page.keywords){ %><meta name="keywords" content="<%= config.keywords %>"><% } %>
 <% if (is_home()){ %>
-    <% if (theme.baidu_site) { %> 
+    <% if (theme.baidu_site) { %>
         <meta name="baidu-site-verification" content="<%- theme.baidu_site %>" />
     <% } %>
-    <% if (theme.google_site) { %> 
+    <% if (theme.google_site) { %>
         <meta name="google-site-verification" content="<%- theme.google_site %>" />
     <% } %>
 <% } %>
@@ -111,7 +112,7 @@ if ( is_archive() ) {
         (function() {
             var hm = document.createElement("script");
             hm.src = "//hm.baidu.com/hm.js?<%=theme.baidu_tongji%>";
-            var s = document.getElementsByTagName("script")[0]; 
+            var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
