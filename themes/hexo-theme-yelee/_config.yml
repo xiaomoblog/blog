@@ -82,14 +82,14 @@ preload_comment: true
 ## false: load comment's section until u click/hover on the bar/icon
 
 disqus:
-  on: true
+  on: false
   shortname: xiaomoblog
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
 
 changyan:
-  on: false
+  on: true
   shortname: prod_a71fc51bc9b832401d9918d524426c51
 
 gitalk:
