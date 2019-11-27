@@ -107,5 +107,5 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/xiaomoinfo/xiaomoinfo.github.io.git
+  repository: https://github.com/houko/blog.git
   branch: master
