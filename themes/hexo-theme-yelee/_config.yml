@@ -8,11 +8,11 @@ Yelee: "3.0"
 ## Tags Cloud Page: `hexo new page tags`
 menu:
   回到主站: //xiaomo.info
-  所有文章: /archives/
-  游戏开发系列: /categories/game
-  JDK源码系列: /tags/jdk源码系列/
-  Linux系列: /categories/linux/
   日本生活系列: /categories/japan/
+  游戏开发系列: /categories/game
+  Linux系列: /categories/linux/
+  JDK源码系列: /tags/jdk源码系列/
+  所有文章: /archives/
   关于我: /about.html
 
 # Link to your avatar | 填写头像地址
