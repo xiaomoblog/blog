@@ -168,13 +168,7 @@
 <%- partial('post/share') %>
 <% } %>
 <% if (!index && post.comments){ %>
-<% if (theme.duoshuo.on) { %>
-<%- partial('comments/duoshuo', {
-    key: post.path,
-    title: post.title,
-    url: config.url + url_for(post.path),
-}) %>
-<% }  if (theme.changyan.on) { %>
+<% if (theme.changyan.on) { %>
 <%- partial('comments/changyan') %>
 <% }  if (theme.gitalk.on) { %>
 <%- partial('comments/gitalk') %>
