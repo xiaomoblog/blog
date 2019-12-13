@@ -8,7 +8,7 @@ yarn.lock
 # Other files and folders
 .settings/
 db.json
-
+*.iml
 # Executables
 *.swf
 *.air
