@@ -1,5 +1,5 @@
 <style>
-    .fengmian {
+    .background-cover {
         float: left;
         width: 400px;
         height: 250px;
@@ -33,7 +33,7 @@
         <% if (theme.fancybox){ %>
         <input type="hidden" class="isFancy"/>
         <% } %>
-        <div class="fengmian">
+        <div class="background-cover">
             <img class="fengmian-image" id="<%= post.slug %>" src="https://image.xiaomo.info/cover/bg-5.jpg" alt="封面" onload="loadImage(this.id)"/>
         </div>
         <% if (post.link || post.title){ %>
@@ -93,69 +93,48 @@
     <script>
 
         function getPgjs() {
-            var agent = navigator.userAgent.toLowerCase();
-            var res = agent.match(/android/);
-            if (res == "android")
+            const agent = navigator.userAgent.toLowerCase()
+            let res = agent.match(/android/)
+            if (res === "android")
                 return res;
             res = agent.match(/iphone/);
-            if (res == "iphone")
+            if (res === "iphone")
                 return "ios";
             res = agent.match(/ipad/);
-            if (res == "ipad")
+            if (res === "ipad")
                 return "ios";
             res = agent.match(/windows/);
-            if (res == "windows")
+            if (res === "windows")
                 return "wp";
+            console.info('pc......')
             return "pc";
         }
 
         function loadImage(id) {
-            var page = window.location.pathname
+            const page = window.location.pathname
             if (page.indexOf("about") !== -1) {
                 return;
             }
-//            var result = getPgjs();
-//            if(result=="wp"){
-//                $(".fengmian").hide();
-//                console.log(result);
-//                return;
-//            }
             var backgroundnum = <%= theme.cover_image %>;
             var randomIndex = Math.ceil(Math.random() * backgroundnum);
             var result = randomIndex + "?version=" + (new Date() / 1000);
             var backgroundimg = "https://image.xiaomo.info/cover/bg-number.jpg".replace(/number/gi, randomIndex);
             var key = "#" + id;
             $(key).attr("src", backgroundimg);
-            $(".fengmian").show();
+            $(".background-cover").show();
         }
 
         (function () {
-            var page = window.location.pathname
+            const page = window.location.pathname
             if (page.indexOf("about") !== -1) {
                 console.log(page)
-                $(".fenagmian").hide();
-//                $("#comments").remove();
+                $(".background-cover").hide();
             }
         })()
     </script>
 </article>
-<!-- 代码1：放在页面需要展示的位置  -->
-<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<!--<div id="cyReward" role="cylabs" data-use="reward" style="margin-left: 45%" ></div>-->
-<!--<div id="cyEmoji" role="cylabs" data-use="emoji"></div>-->
 
 
-<!--<script>-->
-<!--(function(){-->
-<!--var path = window.location.pathname;-->
-<!--if (path ==="/" || path=== undefined || path === null || path.indexOf("page") !== -1){-->
-<!--$("#cyReward").remove();-->
-<!--$("#cyEmoji").remove();-->
-<!--}-->
-<!--})()-->
-
-
-<!--</script>-->
 
 <!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
 <!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
