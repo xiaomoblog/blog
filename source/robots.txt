@@ -10,6 +10,6 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://xiaomo.info/sitemap.xml
-Sitemap: https://xiaomo.info/baidusitemap.xml
-Sitemap: https://xiaomo.info/sitemap.txt
+Sitemap: https://blog.xiaomo.info/sitemap.xml
+Sitemap: https://blog.xiaomo.info/baidusitemap.xml
+Sitemap: https://blog.xiaomo.info/sitemap.txt
