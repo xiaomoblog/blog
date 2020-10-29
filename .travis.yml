@@ -10,15 +10,10 @@ cache:
   directories:
     - node_modules
 after_script:
-  - git remote add upstream https://houko@dev.azure.com/houko/blog/_git/blog
-  - git fetch upstream
-  - git checkout master
-  - git merge upstream/master
-  - git push --quiet --force https://${REPO_TOKEN}@github.com/houko/blog.git
   - cp -f CNAME ./public/CNAME
   - cd ./public
-  - touch README.MD
-  - echo `date +"%Y-%m-%d %H-%m-%s"` >> README.MD
+  - touch README.md
+  - echo `date +"%Y-%m-%d %H-%m-%s"` >> README.md
   - git init
   - git config user.name "xiaomo"
   - git config user.email "xiaomo@xiaomo.info"
