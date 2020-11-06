@@ -6,9 +6,6 @@ tags:
 - sso
 category: aws
 permalink: awsSSo
-
-
-
 ---
 
 aws sso ( AWS Single Sign-On) 中文名叫做aws单点登陆，如果您的组织使用 AWS Single Sign-On (AWS SSO)，则您的用户可以登录到 Active Directory 或内置的 AWS SSO 目录，或[其他连接到 AWS SSO 的 iDP](https://docs.aws.amazon.com/singlesignon/latest/userguide/manage-your-identity-source-idp.html)，并映射到使您能够运行 AWS CLI 命令的 AWS Identity and Access Management (IAM) 角色。无论您使用哪个 IdP，AWS SSO 都会将些区别抽象出来，并且它们都与下面所述的 AWS CLI 一起工作。

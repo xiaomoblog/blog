@@ -1,0 +1,18 @@
+---
+author: 小莫
+date: 2020-11-01
+title: AWS SSO用法
+tags:
+- nuxt
+category: vue
+permalink: vueSSRNuxt
+---
+
+vue全家桶还算是比较全面的，从构建工具vue-cli、vite，到vue-router、vuex、element-ui，vue-dev-tools，最后服务器渲染方案nuxt.js等等构成了一个完整的开发生态，用着还是比较省心的。
+
+<!-- more -->
+
+[sso文档](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-sso.html)
+
+
+
