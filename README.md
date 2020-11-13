@@ -47,5 +47,5 @@ Hi, I'm xiaomo, a game developer from china ,now is in tokyo/japan.
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=houko&layout=compact&theme=radical" />
 </a>
 
-## graph(点击图片查看最新数据)
+## github data(click to show new data)
 [![graph](https://image.xiaomo.info/blog/github.png)](https://profile-summary-for-github.com/user/houko)
