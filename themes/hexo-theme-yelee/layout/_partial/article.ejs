@@ -24,6 +24,47 @@
 
 
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+    <script>
+        function getPgjs() {
+            const agent = navigator.userAgent.toLowerCase()
+            let res = agent.match(/android/)
+            if (res === "android")
+                return res;
+            res = agent.match(/iphone/);
+            if (res === "iphone")
+                return "ios";
+            res = agent.match(/ipad/);
+            if (res === "ipad")
+                return "ios";
+            res = agent.match(/windows/);
+            if (res === "windows")
+                return "wp";
+            console.info('pc......')
+            return "pc";
+        }
+
+        function loadImage(id) {
+            const page = window.location.pathname
+            if (page.indexOf("about") !== -1) {
+                return;
+            }
+            var backgroundnum = <%= theme.cover_image %>;
+            var randomIndex = Math.ceil(Math.random() * backgroundnum);
+            var result = randomIndex + "?version=" + (new Date() / 1000);
+            var backgroundimg = "https://image.xiaomo.info/cover/bg-number.jpg".replace(/number/gi, randomIndex);
+            var key = "#" + id;
+            $(key).attr("src", backgroundimg);
+            $(".background-cover").show();
+        }
+
+        (function () {
+            const page = window.location.pathname
+            if (page.indexOf("about") !== -1) {
+                console.log(page)
+                $(".background-cover").hide();
+            }
+        })()
+    </script>
     <% if(post.noDate != "true"){ %>
     <div class="article-meta">
         <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
@@ -90,48 +131,6 @@
     <% if (!index){ %>
     <%- partial('post/nav') %>
     <% } %>
-    <script>
-
-        function getPgjs() {
-            const agent = navigator.userAgent.toLowerCase()
-            let res = agent.match(/android/)
-            if (res === "android")
-                return res;
-            res = agent.match(/iphone/);
-            if (res === "iphone")
-                return "ios";
-            res = agent.match(/ipad/);
-            if (res === "ipad")
-                return "ios";
-            res = agent.match(/windows/);
-            if (res === "windows")
-                return "wp";
-            console.info('pc......')
-            return "pc";
-        }
-
-        function loadImage(id) {
-            const page = window.location.pathname
-            if (page.indexOf("about") !== -1) {
-                return;
-            }
-            var backgroundnum = <%= theme.cover_image %>;
-            var randomIndex = Math.ceil(Math.random() * backgroundnum);
-            var result = randomIndex + "?version=" + (new Date() / 1000);
-            var backgroundimg = "https://image.xiaomo.info/cover/bg-number.jpg".replace(/number/gi, randomIndex);
-            var key = "#" + id;
-            $(key).attr("src", backgroundimg);
-            $(".background-cover").show();
-        }
-
-        (function () {
-            const page = window.location.pathname
-            if (page.indexOf("about") !== -1) {
-                console.log(page)
-                $(".background-cover").hide();
-            }
-        })()
-    </script>
 </article>
 
 
