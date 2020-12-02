@@ -8,15 +8,15 @@
     </aside>
     <script>
         var $commentBar = $("#comments aside.comment-bar");
-        var load$hide = function(){
+        var load$hide = function () {
             $commentBar.find("a > i").toggle();
             loadComment();
             $commentBar.fadeOut(800);
         }
-        $commentBar.click(function(){
+        $commentBar.click(function () {
             load$hide();
         })
-        $commentBar.children("a").hover(function(){
+        $commentBar.children("a").hover(function () {
             load$hide();
         })
         if (window.location.hash === "#comments") {
@@ -25,7 +25,7 @@
     </script>
 <% }
 else { %>
-     <!--什么都不做-->
-     <script> loadComment(); </script>
+    <!--什么都不做-->
+    <script> loadComment(); </script>
 <% }
 %>

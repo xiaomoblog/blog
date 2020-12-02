@@ -5,16 +5,19 @@
 
 global-reset()
 
-ol{
+ol {
   list-style: decimal;
   padding-left: 20px;
 }
-ul{
+
+ul {
   list-style: none;
 }
+
 input, button
   margin: 0
   padding: 0
+
   &::-moz-focus-inner
     border: 0
     padding: 0
@@ -31,57 +34,70 @@ body
   color: #333
   -webkit-overflow-scrolling: touch
 
-::selection 
+::selection
   background: rgba(147, 181, 224, .6);
   color: white;
 
-h2,h3,h4,h5,h6 {
+h2, h3, h4, h5, h6 {
   font-family: font-serif, serif;
   font-weight bold
 }
-h1,h2,h3{
+
+h1, h2, h3 {
   display: block;
 }
+
 h1 {
   font-size: 1.6rem;
   font-family: "Segoe UI", font-sans, font-chs, sans-serif;
 }
+
 h2 {
-  font-size:1.4rem
+  font-size: 1.4rem
 }
+
 h3 {
-  font-size:1.15rem
+  font-size: 1.15rem
 }
-h4,h5,h6{
-  font-size:1rem
+
+h4, h5, h6 {
+  font-size: 1rem
 }
 
 a {
-  text-decoration:none;
-  outline-width:0;
-  color:#258fb8;
+  text-decoration: none;
+  outline-width: 0;
+  color: #258fb8;
   outline: none;
 }
 
 .alignleft {
-  float:left
+  float: left
 }
+
 .alignright {
-  float:right
+  float: right
 }
+
 .clearfix {
-  *zoom:1
+
+*
+zoom
+:
+1
 }
 .clearfix:after {
-  content:"";
-  display:table;
-  clear:both
+  content: "";
+  display: table;
+  clear: both
 }
+
 .inner {
-  width:1000px;
-  margin:0 auto
+  width: 1000px;
+  margin: 0 auto
 }
-.hide{
+
+.hide {
   display: none;
 }
 
@@ -90,9 +106,9 @@ profilepic:hover {
   animation: rubberBand 1s;
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width: 1040px) {
   .inner {
-    width:100%
+    width: 100%
   }
 }
 
@@ -122,23 +138,28 @@ if sidebar
   @import "_partial/sidebar"
 
   #ds-reset .ds-gradient-bg {
-    background:url("https://static.duoshuo.com/images/bg_sprites.png") !important;
+    background: url("https://static.duoshuo.com/images/bg_sprites.png") !important;
   }
-#ds-reset .ds-icon{
-  background:transparent url("https://static.duoshuo.com/images/sprites.png") !important;
+
+#ds-reset .ds-icon {
+  background: transparent url("https://static.duoshuo.com/images/sprites.png") !important;
 }
-#ds-thread #ds-reset .ds-textarea-wrapper{
-  background:#fff url("https://static.duoshuo.com/images/bg_sprites.png") 0 -90px repeat-x !important;
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+  background: #fff url("https://static.duoshuo.com/images/bg_sprites.png") 0 -90px repeat-x !important;
 }
-#ds-thread #ds-reset .ds-toolbar-button{
-  background:transparent url("https://static.duoshuo.com/images/sprites.png") no-repeat !important;
-  _background-image:url("https://static.duoshuo.com/images/sprites.gif") !important;
+
+#ds-thread #ds-reset .ds-toolbar-button {
+  background: transparent url("https://static.duoshuo.com/images/sprites.png") no-repeat !important;
+  _background-image: url("https://static.duoshuo.com/images/sprites.gif") !important;
 }
-#ds-wrapper #ds-reset .ds-dialog-close{
-  background:transparent url("https://static.duoshuo.com/images/sprites.png") 0 -163px no-repeat !important;
-  _background-image:url("https://static.duoshuo.com/images/sprites.gif") !important;
+
+#ds-wrapper #ds-reset .ds-dialog-close {
+  background: transparent url("https://static.duoshuo.com/images/sprites.png") 0 -163px no-repeat !important;
+  _background-image: url("https://static.duoshuo.com/images/sprites.gif") !important;
 }
-#ds-notify #ds-reset a.ds-logo{
-  background:transparent url("https://static.duoshuo.com/images/sprites.png") 0 -220px no-repeat !important;
-  _background-image:url("https://static.duoshuo.com/images/sprites.gif") !important;
+
+#ds-notify #ds-reset a.ds-logo {
+  background: transparent url("https://static.duoshuo.com/images/sprites.png") 0 -220px no-repeat !important;
+  _background-image: url("https://static.duoshuo.com/images/sprites.gif") !important;
 }
