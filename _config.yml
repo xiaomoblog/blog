@@ -6,26 +6,26 @@
 title: 小莫的博客-fighting(技术分享、生活随笔)
 subtitle: 行百里者半九十
 keywords: 小莫的博客,
-  java,
-  日语,
-  动漫,
-  技术,
-  unity3d,
-  nginx,
-  https,
-  angular,
-  游戏,
-  服务器,
-  tomcat,
-  IDEA,
-  javaweb,
-  spring,
-  hibernate,
-  spring boot,
-  开源中国,
-  github,
-  linux,
-  主程
+          java,
+          日语,
+          动漫,
+          技术,
+          unity3d,
+          nginx,
+          https,
+          angular,
+          游戏,
+          服务器,
+          tomcat,
+          IDEA,
+          javaweb,
+          spring,
+          hibernate,
+          spring boot,
+          开源中国,
+          github,
+          linux,
+          主程
 description: 专注于技术研究的博客，具有开源精神;乐于将自己折腾的项目放在github上和大家共同学习，共同进步。
 author: 小莫
 language: zh-CN
@@ -44,7 +44,7 @@ baidusitemap:
   path: baidusitemap.xml
 
 douban:
-  user: xiaomo1992
+    user: xiaomo1992
 
 psot_asset_folder: true
 
@@ -98,10 +98,10 @@ exclude_generator:
 theme: hexo-theme-yelee
 
 archive_generator:
-  per_page: 0
-  yearly: true
-  monthly: true
-  daily: false
+    per_page: 0
+    yearly: true
+    monthly: true
+    daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

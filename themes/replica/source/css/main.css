@@ -643,11 +643,10 @@ article blockquote {
   margin-right: 0;
 }
 
-article blockquote p {
+article blockquote p{
   padding: 10px;
   width: 100%;
 }
-
 figure {
   padding: 0;
   margin: 0;

@@ -1,32 +1,32 @@
-define([], function () {
+define([], function(){
 
-    var Tips = (function () {
+    var Tips = (function(){
 
         var $tipBox = $(".tips-box");
 
         return {
-            show: function () {
+            show: function(){
                 $tipBox.removeClass("hide");
             },
-            hide: function () {
+            hide: function(){
                 $tipBox.addClass("hide");
             },
-            init: function () {
-
+            init: function(){
+                
             }
         }
     })();
 
-    var slide = function (idx) {
+    var slide = function(idx){
         // 修复IE10+切换无效的bug
         var $wrap = $(".switch-wrap"),
-            transform = [
-                '-webkit-transform: translate(-' + idx * 100 + '%, 0);',
-                '-moz-transform: translate(-' + idx * 100 + '%, 0);',
-                '-o-transform: translate(-' + idx * 100 + '%, 0);',
-                '-ms-transform: translate(-' + idx * 100 + '%, 0);',
-                'transform: translate(-' + idx * 100 + '%, 0);'
-            ];
+          transform = [
+              '-webkit-transform: translate(-' + idx * 100 + '%, 0);',
+              '-moz-transform: translate(-' + idx * 100 + '%, 0);',
+              '-o-transform: translate(-' + idx * 100 + '%, 0);',
+              '-ms-transform: translate(-' + idx * 100 + '%, 0);',
+              'transform: translate(-' + idx * 100 + '%, 0);'
+          ];
         //$wrap.css({
         //    "transform": "translate(-"+idx*100+"%, 0 )"
         //});
@@ -35,16 +35,16 @@ define([], function () {
         $(".icon-wrap").eq(idx).removeClass("hide");
     }
 
-    var bind = function () {
+    var bind = function(){
         var switchBtn = $("#myonoffswitch");
         var tagcloud = $(".second-part");
         var navDiv = $(".first-part");
-        switchBtn.click(function () {
-            if (switchBtn.hasClass("clicked")) {
+        switchBtn.click(function(){
+            if(switchBtn.hasClass("clicked")){
                 switchBtn.removeClass("clicked");
                 tagcloud.removeClass("turn-left");
                 navDiv.removeClass("turn-left");
-            } else {
+            }else{
                 switchBtn.addClass("clicked");
                 tagcloud.addClass("turn-left");
                 navDiv.addClass("turn-left");
@@ -56,52 +56,53 @@ define([], function () {
         var isEnterBtn = false;
         var isEnterTips = false;
 
-        $(".icon").bind("mouseenter", function () {
+        $(".icon").bind("mouseenter", function(){
             isEnterBtn = true;
             Tips.show();
-        }).bind("mouseleave", function () {
+        }).bind("mouseleave", function(){
             isEnterBtn = false;
-            setTimeout(function () {
-                if (!isEnterTips) {
+            setTimeout(function(){
+                if(!isEnterTips){
                     Tips.hide();
                 }
             }, 100);
         });
 
-        $(".tips-box").bind("mouseenter", function () {
+        $(".tips-box").bind("mouseenter", function(){
             isEnterTips = true;
             Tips.show();
-        }).bind("mouseleave", function () {
+        }).bind("mouseleave", function(){
             isEnterTips = false;
-            setTimeout(function () {
-                if (!isEnterBtn) {
+            setTimeout(function(){
+                if(!isEnterBtn){
                     Tips.hide();
                 }
             }, 100);
         });
 
-        $(".tips-inner li").bind("click", function () {
+        $(".tips-inner li").bind("click", function(){
             var idx = $(this).index();
             slide(idx);
             Tips.hide();
         });
     }
 
-    var miniArchives = function () {
-        if (yiliaConfig.isPost) {
+    var miniArchives = function(){
+        if(yiliaConfig.isPost) {
             $(".post-list").addClass("toc-article");
-            $(".post-list-item a").attr("target", "_blank");
-            $("#post-nav-button > a:nth-child(2)").click(function () {
+            $(".post-list-item a").attr("target","_blank");
+            $("#post-nav-button > a:nth-child(2)").click(function() {
                 $("#post-nav-button .fa-bars,#post-nav-button .fa-times").toggle();
                 $(".post-list").toggle(300);
                 if ($(".toc").length > 0) {
-                    $("#toc, #tocButton").toggle(200, function () {
+                    $("#toc, #tocButton").toggle(200, function() {
                         if ($(".switch-area").is(":visible")) {
                             $("#toc, .switch-btn, .switch-area").toggle();
                             $("#tocButton").attr("value", yiliaConfig.toc[0]);
-                        }
-                    });
-                } else {
+                            }
+                        });
+                }
+                else {
                     $(".switch-btn, .switch-area").fadeToggle(300);
                 }
             });
@@ -109,8 +110,8 @@ define([], function () {
     }()
 
     if (yiliaConfig.jquery_ui[0]) {
-        var tooltip = function () {
-            require([yiliaConfig.jquery_ui[1]], function () {
+        var tooltip = function(){
+            require([yiliaConfig.jquery_ui[1]], function(){
                 var loadCSS = function (url, num) {
                     var link = document.createElement("link");
                     link.rel = "stylesheet";
@@ -165,14 +166,14 @@ define([], function () {
     }
 
     if (yiliaConfig.search) {
-        var search = function () {
-            require([yiliaConfig.rootUrl + 'js/search.js'], function () {
+        var search = function(){
+            require([yiliaConfig.rootUrl + 'js/search.js'], function(){
                 var inputArea = document.querySelector("#local-search-input");
                 var $HideWhenSearch = $("#toc, #tocButton, .post-list, #post-nav-button a:nth-child(2)");
                 var $resetButton = $("#search-form .fa-times");
                 var $resultArea = $("#local-search-result");
 
-                var getSearchFile = function () {
+                var getSearchFile = function(){
                     var search_path = "search.xml";
                     var path = yiliaConfig.rootUrl + search_path;
                     searchFunc(path, 'local-search-input', 'local-search-result');
@@ -182,35 +183,29 @@ define([], function () {
                 if (yiliaConfig.search && getFileOnload === "true") {
                     getSearchFile();
                 } else {
-                    inputArea.onfocus = function () {
-                        getSearchFile()
-                    }
+                    inputArea.onfocus = function(){ getSearchFile() }
                 }
 
-                var HideTocArea = function () {
-                    $HideWhenSearch.css("visibility", "hidden");
+                var HideTocArea = function(){
+                    $HideWhenSearch.css("visibility","hidden");
                     $resetButton.show();
                 }
-                inputArea.oninput = function () {
-                    HideTocArea()
-                }
-                inputArea.onkeydown = function () {
-                    if (event.keyCode == 13) return false
-                }
+                inputArea.oninput = function(){ HideTocArea() }
+                inputArea.onkeydown = function(){ if(event.keyCode==13) return false}
 
-                resetSearch = function () {
-                    $HideWhenSearch.css("visibility", "initial");
+                resetSearch = function(){
+                    $HideWhenSearch.css("visibility","initial");
                     $resultArea.html("");
                     document.querySelector("#search-form").reset();
                     $resetButton.hide();
                     $(".no-result").hide();
                 }
 
-                $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function (e) {
+                $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
                     if (!$(e.target).text()) {
                         $(".no-result").show(200);
                     } else {
-                        $(".no-result").hide();
+                      $(".no-result").hide();
                     }
                 })
             })
@@ -218,7 +213,7 @@ define([], function () {
     }
 
     return {
-        init: function () {
+        init: function(){
             resetTags();
             bind();
             Tips.init();
