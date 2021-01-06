@@ -114,8 +114,8 @@ pwa:
   manifest:
     path: /manifest.json
     body:
-      name: hexo
-      short_name: hexo
+      name: xiaomo's blog
+      short_name: xiaomo
       icons:
         - src: /img/avatar.png
           sizes: 192x192
