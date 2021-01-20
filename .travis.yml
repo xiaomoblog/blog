@@ -11,7 +11,9 @@ cache:
     - node_modules
 after_script:
   - cp -f CNAME ./public/CNAME
+  - cp -f README.md ./public/README.md
   - cd ./public
+  - echo `date +"%Y-%m-%d %H-%m-%s"` >> README.md
   - git init
   - git config user.name "xiaomo"
   - git config user.email "xiaomo@xiaomo.info"
